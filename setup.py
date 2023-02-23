@@ -48,4 +48,5 @@ setup(
             package_name + ' = ' + package_name + '.__main__:main',
         ],
     },
+    scripts=["scripts/param_tester.py"],
 )
